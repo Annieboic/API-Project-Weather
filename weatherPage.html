@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexWeather.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="weather-nav">
+      <ul>
+        <a href="index.html">Go to Main Page</a>
+        <a href="./currentWeather.html">Access Current Forecast</a>
+      </ul>
+    </nav>
+
+    <div id="forecast">
+      <h1>View Weather Conditions by City</h1>
+    </div>
+
+    <div class="input">
+      <input type="text" id="city-input" placeholder="Enter city name" />
+      <button id="submit-btn">Submit</button>
+    </div>
+
+    <div id="weather-card">
+      <div id="errorMessage"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
