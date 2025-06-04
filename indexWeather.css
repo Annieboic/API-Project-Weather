@@ -1,0 +1,83 @@
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #04395e;              /* Calm sky blue */
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/tokyo-japan-cityscape_1232-2315.jpg?ga=GA1.1.1735568604.1748445568&semt=ais_items_boosted&w=740");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;  
+    height: 100vh;                
+    margin: 0;
+}
+
+#weather-nav {
+    padding: 15px 30px;
+}
+
+#weather-nav ul {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin: 0;
+padding: 0;
+}
+
+#weather-nav a {
+color: #ffffff;
+text-decoration: none;
+font-size: 22px;
+font-weight: 500;
+position: relative;
+padding: 5px;
+transition: color 0.3s ease;
+}
+
+.input {
+  text-align: center;
+}
+
+#city-input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  width: 250px;
+}
+
+
+#submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077cc;    
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+#submit-btn:hover {
+  background-color: #005fa3;
+}
+
+.found_city {
+  text-align: center;
+}
+
+#errorMessage {
+  
+  color: rgb(239, 31, 31);
+  text-align: center;
+}
+
+
+

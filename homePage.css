@@ -1,0 +1,43 @@
+
+#home-nav {
+    
+    padding: 15px 30px;
+}
+
+#home-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#home-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0162a8;             /* Calm sky blue */
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/scenic-view-field-against-sky_1048944-3984396.jpg?semt=ais_items_boosted&w=740");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;  
+    height: 100vh;                
+    margin: 0;
+}
